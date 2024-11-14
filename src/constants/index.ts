@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import cloudinary from 'cloudinary';
 dotenv.config();
 
-export const PORT = process.env.PORT || 3000;
+export const PORT = process.env.PORT || 10000;
 export const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://agustinesquivvel:9WpcnizVKicMMUrL@myapp.6tv31.mongodb.net/";
 export const JWT_SECRET = process.env.JWT_SECRET || "this_is_my_secret";
 export const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || "208172994015-qa2omqpdao2ucm0h5906h3vakd4ioitg.apps.googleusercontent.com";

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./src/types", "./node_modules/@types", "./types"],
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "types": [
+      "node", 
+      "express"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*"], // Agrega la carpeta donde está el archivo 'express.d.ts'
+  "exclude": ["node_modules", "**/*.spec.ts"]
+  
+}
